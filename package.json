@@ -1,0 +1,35 @@
+{
+  "name": "group-trip-planner",
+  "version": "1.0.0",
+  "description": "A collaborative group trip planning tool with real-time collaboration and expense splitting",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:migrate": "node scripts/migrate.js"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "@types/next": "^9.0.0",
+    "postgres": "^3.4.0",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.1.0",
+    "dotenv": "^16.3.0",
+    "axios": "^1.6.0",
+    "zustand": "^4.4.0",
+    "date-fns": "^2.30.0",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.5",
+    "typescript": "^5.0.0"
+  }
+}
